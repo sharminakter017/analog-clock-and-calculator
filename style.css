@@ -1,0 +1,145 @@
+
+@font-face {
+    font-family: sharmin;
+    src: url(./font/digital-7.ttf);
+}
+
+
+
+
+.clock{
+
+
+    height: 750px;
+    width: 750px;
+    background-image: url(./244824821f943a397973d35a9b5f6748-removebg-preview.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+
+}
+
+.clock::before{
+    content: '';
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+}
+
+
+.s{
+    height: 499px;
+    width: 0;
+   
+    display: flex;
+    justify-content: center;
+    transform: rotate(0deg);
+}
+
+.s::before{
+    content: '';
+    height: 270px;
+    width: 38px;
+    background-image: url(./272191798_355441249457663_395625290903412271_n.png);
+    position: absolute;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.m{
+    width: 0;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    transform: rotate(80deg);
+}
+
+.m::before{
+    content: '';
+    height: 245px;
+    width: 60px;
+    background-image: url(./272050840_199894802323198_2494319355411641623_n.png);
+    position: absolute;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h{
+    height: 357px;
+    width: 0px;
+    display: flex;
+    justify-content: center;
+    transform: rotate(45deg);
+}
+
+.h::before{
+    content: '';
+    height: 200px;
+    width: 66px;
+   background-image: url(./272083332_650227442841528_41501051589328756_n.png);
+    position: absolute;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+/*================== calculator part ======================*/
+
+
+.calculator{
+    height: 500px;
+    width: 400px;
+    background-color:#011627 ;
+}
+
+.monitor_box{
+    height: 150px;
+    background-color:#fff ;
+    border: 25px solid black;
+    text-align: right;
+    font-family: sharmin;
+}
+
+.buttons button {
+    width: 23%;
+    float: left;
+}
+
+button {
+    padding: 10px;
+    margin-right: 4px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    margin-left: 4px;
+    border-radius: 10px;
+    background-color: #ccc ;
+    transition: 0.5s;
+    
+}
+
+button:hover{
+    transform: translateY(-5px);
+    background-color:#1c424d ;
+    color: #fff;
+}
+
+.main_monitor{
+    color: black;
+    font-size: 40px;
+}
